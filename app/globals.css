@@ -61,20 +61,20 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.28 0 0); /* charcoal */
 
-  /* Primary brand color - blue */
-  --primary: oklch(0.55 0.18 250); /* blue primary */
-  --primary-foreground: oklch(0.99 0 0); /* white text on blue */
+  /* Primary brand color - pink */
+  --primary: oklch(0.65 0.20 350); /* pink primary */
+  --primary-foreground: oklch(0.99 0 0); /* white text on pink */
 
-  /* Secondary colors - light blue for backgrounds */
-  --secondary: oklch(0.85 0.08 250); /* light blue for subtle backgrounds */
+  /* Secondary colors - light pink for backgrounds */
+  --secondary: oklch(0.88 0.08 350); /* light pink for subtle backgrounds */
   --secondary-foreground: oklch(0.28 0 0); /* charcoal text */
 
   /* Muted colors - light backgrounds and warm-gray secondary text */
-  --muted: oklch(0.85 0.08 250); /* light blue for muted backgrounds */
+  --muted: oklch(0.88 0.08 350); /* light pink for muted backgrounds */
   --muted-foreground: oklch(0.48 0 0); /* warm-gray #6B6B6B for secondary text */
 
-  /* Accent colors - blue accents */
-  --accent: oklch(0.85 0.08 250); /* light blue */
+  /* Accent colors - pink accents */
+  --accent: oklch(0.88 0.08 350); /* light pink */
   --accent-foreground: oklch(0.28 0 0); /* charcoal */
 
   /* Destructive colors */
@@ -84,7 +84,7 @@
   /* Border and input colors */
   --border: oklch(0.90 0 0); /* neutral light gray for borders */
   --input: oklch(0.90 0 0); /* neutral light gray */
-  --ring: oklch(0.55 0.18 250); /* blue primary for focus rings */
+  --ring: oklch(0.65 0.20 350); /* pink primary for focus rings */
 
   /* Chart colors */
   --chart-1: oklch(0.646 0.222 41.116);
@@ -96,15 +96,15 @@
   /* Sidebar colors */
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.55 0.18 250);
+  --sidebar-primary: oklch(0.65 0.20 350);
   --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.92 0.05 250);
+  --sidebar-accent: oklch(0.93 0.05 350);
   --sidebar-accent-foreground: oklch(0.25 0 0);
-  --sidebar-border: oklch(0.90 0.01 250);
-  --sidebar-ring: oklch(0.55 0.18 250);
+  --sidebar-border: oklch(0.90 0.01 350);
+  --sidebar-ring: oklch(0.65 0.20 350);
 
-  /* Custom color for primary hover state - darker blue */
-  --primary-hover: oklch(0.48 0.20 250);
+  /* Custom color for primary hover state - darker pink */
+  --primary-hover: oklch(0.58 0.22 350);
 }
 
 .dark {
@@ -218,8 +218,8 @@
     max-width: 50rem;
   }
 
-  /* Blue color utilities for text */
-  .text-blue-dark {
-    color: oklch(0.48 0.20 250); /* darker blue */
+  /* Pink color utilities for text */
+  .text-pink-dark {
+    color: oklch(0.58 0.22 350); /* darker pink */
   }
 }
