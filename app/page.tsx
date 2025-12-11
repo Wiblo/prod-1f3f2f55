@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <>
       <HeroWithImage
-        subtitle="Dr. Kamilah Jordaan"
+        subtitle="Dr. Greg Pryce"
         title="Sports & Family Chiropractic Care"
         backgroundImage="/dr-kamilah-professional-portrait.jpeg"
-        backgroundImageAlt="Dr. Kamilah Jordaan - Professional Chiropractor"
+        backgroundImageAlt="Dr. Greg Pryce - Professional Chiropractor"
         ctaText="Book Your Appointment"
         ctaUrl={businessInfo.bookingUrl}
       />

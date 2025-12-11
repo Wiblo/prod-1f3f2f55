@@ -6,7 +6,7 @@ import { generatePageMetadata } from "@/lib/seo/metadata"
 
 export const metadata: Metadata = generatePageMetadata(
   "About Us",
-  "Learn more about Dr. Kamilah Jordaan and our commitment to providing exceptional chiropractic care for sports and family wellness.",
+  "Learn more about Dr. Greg Pryce and our commitment to providing exceptional chiropractic care for sports and family wellness.",
   "/about"
 )
 
