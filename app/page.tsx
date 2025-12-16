@@ -13,7 +13,7 @@ export default function Home() {
       <HeroWithImage
         subtitle="Dr. Greg Pryce"
         title="Sports & Family Chiropractic Care"
-        backgroundImage="/dr-kamilah-professional-portrait.jpeg"
+        backgroundImage="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1920&q=80"
         backgroundImageAlt="Dr. Greg Pryce - Professional Chiropractor"
         ctaText="Book Your Appointment"
         ctaUrl={businessInfo.bookingUrl}
