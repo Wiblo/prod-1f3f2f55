@@ -1,6 +1,6 @@
 export const businessInfo = {
   // Core business details
-  name: "Practice Name Chiropractic",
+  name: "Greg Pryce Chiropractic",
   tagline: "Quality chiropractic care in Your City",
   logo: "/uploads/logo.png",
 
