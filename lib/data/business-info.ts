@@ -2,7 +2,7 @@ export const businessInfo = {
   // Core business details
   name: "Practice Name Chiropractic",
   tagline: "Quality chiropractic care in Your City",
-  logo: "/logo.png",
+  logo: "/uploads/logo.png",
 
   // Contact information
   phone: "(555) 123-4567",
